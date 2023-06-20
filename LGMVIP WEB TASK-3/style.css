@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(220, 220, 151);
+}
+.navbar{
+    background-color: rgb(162, 221, 162);
+    color: rgb(5, 7, 9);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    margin: 1.8vh 10vh 1vh 10vh;
+}
+.formcontainer{
+    background-color: aliceblue;
+    height: 85vh;
+    width: 85vh;
+    margin: 2vh;
+    border-radius: 25px;
+}
+.formcontainer h1{
+    text-align: center;
+    color: blue;
+}
+.formcontainer label{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    padding-left: 22px;
+    margin: 2px 2px 5px 6px;
+}
+.formcontainer input{
+    background-color: aliceblue;
+    border-radius: 25px;
+    border: none;
+    text-align: center;
+  
+}
+.vl{
+    display: inline-block;
+    border-left: 6px solid rgb(162, 221, 162);;
+    height: 500px;
+    width: 3px;
+    border-radius: 25%;
+    margin: 2vh;
+}
+.result{
+    background-color: aliceblue;
+    height: 85vh;
+    width: 85vh;
+    margin: 2vh;
+    border-radius: 25px;
+    text-align: center;
+    color: blue;
+
+}
+.btn{
+    margin-top: 30px;
+}
+#Submit{
+    display: inline-block;
+    position:relative;
+    background: rgb(18, 242, 33);
+    color: aliceblue;
+    height: 30px;
+    width: 140px;
+    border-radius: 25px;
+    margin: auto 3vh auto 20vh;
+    border: none;
+
+    
+}
+#Cancel{
+    display: inline-block;
+    background: red;
+    color: aliceblue;
+    height: 30px;
+    width: 75px;
+    border-radius: 25px;
+    border: none;
+    margin: auto auto auto 2vh;
+
+}
+#Submit:hover{
+    background: rgb(34, 173, 43);
+    height: 32px;
+    width: 150px;
+
+}
+#Cancel:hover{
+    background: rgb(93, 20, 11);
+    height: 35px;
+    width: 80px;
+
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    
+
+   
+    
+}
+.cardbody{
+    margin-top: 5px;
+  display: flex;
+text-align: left;
+background-color: antiquewhite;
+  
+    border-radius: 25px;
+    height: 125px;
+    width: 350px;
+    padding: 25px;
+    position: relative;
+    left: 7vh;
+}
+.cardtext h4{
+    color: red;
+    font-size: 20px;
+}
+.cardtext p{
+    color: black;
+    font-size: 15px;
+}
+.image{
+    
+
+    position: relative;
+    left: 12vh;
+}
+.image img{
+    display: inline-block;
+    border-radius: 25px;
+    position: relative;
+    height: 100px;
+    width: 100px;
+}

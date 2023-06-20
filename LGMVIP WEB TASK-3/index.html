@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration Form</title>
+
+</head>
+<body>
+<div class="navbar">
+    <h1>Student Registration Form</h1>
+</div>
+<div class="container">
+<div class="formcontainer">
+    <form class="enrollment" onsubmit="return false">
+    <h1>Register Yourself</h1><br>
+   <label >Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:-</label>
+   <input type="text" id="name" placeholder="Enter Your name" required><br><br><br>
+   
+   <label >Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:-</label>
+   <input type="email" id="email" placeholder="Enter your Email" required><br><br><br>
+   
+   <label >Image&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:-</label>
+   <input type="file" id="Image" name="Image" required class=" custom-file-input" onchange="image(event)"/><br><br><br>
+
+   <label >Phone No:- &nbsp;</label>
+   <input type="number" id="phnumber" required placeholder="Enter Your Number"><br><br><br>
+   <div id="numbervalid"></div>
+ 
+   <label >Gender:-&nbsp;&nbsp;&nbsp;&nbsp;:- </label>
+   <input type="radio" id="Male" name="Gender" value="male">
+   <label for="Male">Male</label>&nbsp;
+
+   <input type="radio" id="Female" name="Gender" value="Female">
+   <label for="Female">Female</label>&nbsp;
+
+   <input type="radio" id="Others" name="Gender" value="other">
+   <label for="Others">Others</label><br><br><br>
+
+   <label >Skills&nbsp;&nbsp;&nbsp;&nbsp;:-</label>
+   <input type="checkbox" id="html" value="html" >
+   <label for="html">HTML</label>
+
+   <input type="checkbox" id="css" value="css" >
+   <label for="css">CSS</label>
+
+   <input type="checkbox" id="javascript" value="javascript" >
+   <label for="javascript">JavaScript</label>
+
+
+   <div class="btn">
+   <button id="Submit" onclick="EnrollStudent()" >Enroll Student</button>
+   <button id="Cancel">Cancel</button>
+</form>
+</div>
+</div>
+
+<div class="vl"></div>
+
+<div class="result">
+    <h1>Student Enrolled</h1>
+    <div class="cards">
+<!-- <div class="cardbody">
+    <div class="cardtext">
+        <h4 class="title"></h4>
+        <p class="text"></p>
+        <p class="text"></p>
+        <p class="text"></p>
+        <p class="text"> </p>
+    </div>
+  
+    <div class="image">
+        <img src="" alt="">
+    </div>
+    <hr>
+</div> -->
+
+
+    </div>
+   
+
+</div>
+</div>
+
+
+
+
+
+    <script src="/script.js"></script>
+</body>
+</html>
